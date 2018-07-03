@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+body .wrap {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body .wrap > input {
+  height: 50px;
+  width: 300px;
+  margin: 20px;
+}
+
+body .wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrap ul li {
+  list-style: none;
+}
+
+body .wrap ul p {
+  color: #067c7c;
+  text-shadow: 1px 1px;
+}
+
+body .wrap ul img {
+  height: 300px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=main.css.map */
